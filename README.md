@@ -25,18 +25,25 @@ Open the `index.html` file in your browser and check the console in Chrome Dev T
 Figure out what you need to change to give Javascript access to the `h1#header` element.
 
 **YOUR NOTES**
-```
+move to after body in index.html
 
-```
+<!-- <script src="index.js"></script>
+<script src="data.js"></script>
+<style>
+  img {
+    height: 300px;
+  }
+</style> -->
+
 
 ## Deliverable 2
 
 Now that you have access to the `h1#header` element, use Javascript to change the element's font color to red (of course).
 
 **YOUR NOTES**
-```
 
-```
+header.style.color = 'red'
+
 
 ## Deliverable 3
 
@@ -56,9 +63,8 @@ Create a DOM element that looks like this for each player and append it to the `
 ```
 
 **YOUR NOTES**
-```
 
-```
+Grab the index [0] for player-container
 
 ## Deliverable 4
 
